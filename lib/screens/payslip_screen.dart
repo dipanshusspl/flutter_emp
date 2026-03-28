@@ -18,7 +18,7 @@ class PayslipScreen extends StatelessWidget {
     // Allowances = 4 * 10% of basic = 40% of basic
     // Employer PF = 12% of basic
     // So CTC = basic * (1 + 0.40 + 0.12) = basic * 1.52
-    final basic = monthly / 1.52;
+    final basic = monthly / 1.50;
  
     final hra      = basic * 0.10;
     final medical  = basic * 0.10;
